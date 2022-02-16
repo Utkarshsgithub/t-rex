@@ -15,6 +15,7 @@ html {
 
 html,
 body {
+  height: 2000px;
   font-family: 'Poppins', sans-serif;
   color: #fff;
   background: #0a0a0a;
