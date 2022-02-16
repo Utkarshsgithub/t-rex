@@ -31,7 +31,7 @@ a {
 }
 
 #navbar {
-    padding: 25px 0;
+    padding: 15px 0;
     display: flex;
     align-items: center;
 }
@@ -49,15 +49,22 @@ a {
     margin: 0 25px;
 }
 
+#hero-content {
+    display: flex;
+    align-items: center;
+}
+
 #hero-text {
-    width: 500px;
-    font-size: 8rem;
+    width: 600px;
+    font-size: 7rem;
     margin-left: 10%;
     line-height: 150px;
 }
 
 #hero img {
-    height: 500px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: 10%;
 }
 
 .remove_list_style {
