@@ -68,6 +68,25 @@ a {
     margin-right: 10%;
 }
 
+#showoff {
+  margin: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#showoff picture {
+  width: 600px;
+  height: 400px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#showoff #showoff-content {
+  width: 600px;
+}
+
 .remove_list_style {
     list-style: none;
 }
