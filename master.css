@@ -15,7 +15,6 @@ html {
 
 html,
 body {
-  height: 2000px;
   font-family: 'Poppins', sans-serif;
   color: #fff;
   background: #0a0a0a;
@@ -68,14 +67,19 @@ a {
     margin-right: 10%;
 }
 
-#showoff {
+#stages h1 {
   margin: 100px 0;
+  font-size: 3rem;
+}
+
+.showoff {
+  margin: 50px 0;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 
-#showoff picture {
+.showoff picture {
   width: 600px;
   height: 400px;
   border-radius: 20px;
@@ -83,10 +87,16 @@ a {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-#showoff #showoff-content {
+.showoff #showoff-content {
   width: 600px;
 }
 
 .remove_list_style {
     list-style: none;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
