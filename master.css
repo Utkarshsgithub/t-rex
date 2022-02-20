@@ -31,7 +31,7 @@ a {
 }
 
 #navbar {
-    padding: 15px 0;
+    padding: 15px 15px;
     display: flex;
     align-items: center;
 }
@@ -68,8 +68,10 @@ a {
 }
 
 #stages h1 {
+  /* position: absolute; */
   margin: 100px 0;
   font-size: 3rem;
+  /* background: linear-gradient(315deg, #a40606 0%, #d98324 74%); */
 }
 
 .showoff {
@@ -80,15 +82,22 @@ a {
 }
 
 .showoff picture {
-  width: 600px;
-  height: 400px;
+  width: 400px;
+  height: 300px;
   border-radius: 20px;
   background: #fff;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .showoff #showoff-content {
   width: 600px;
+}
+
+.showoff #showoff-content p {
+  font-size: 1.5rem;
 }
 
 .remove_list_style {
