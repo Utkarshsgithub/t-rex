@@ -68,10 +68,12 @@ a {
 }
 
 #stages h1 {
-  /* position: absolute; */
   margin: 100px 0;
   font-size: 3rem;
-  /* background: linear-gradient(315deg, #a40606 0%, #d98324 74%); */
+  background: linear-gradient(#b02e0c, #eb4511);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .showoff {
