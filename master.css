@@ -15,7 +15,7 @@ html {
 
 html,
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #fff;
   background: #0a0a0a;
 }
@@ -26,45 +26,45 @@ a {
 }
 
 #hero {
-    background: #d90a2c;
-    height: 100vh;
+  background: #d90a2c;
+  height: 800px;
 }
 
 #navbar {
-    padding: 15px 15px;
-    display: flex;
-    align-items: center;
+  padding: 15px 15px;
+  display: flex;
+  align-items: center;
 }
 
 #navbar ul {
-    display: flex;
-    margin-left: auto;
+  display: flex;
+  margin-left: auto;
 }
 
 #logo {
-    margin: 25px;
+  margin: 25px;
 }
 
 #navbar ul li {
-    margin: 0 25px;
+  margin: 0 25px;
 }
 
 #hero-content {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 #hero-text {
-    width: 600px;
-    font-size: 7rem;
-    margin-left: 10%;
-    line-height: 150px;
+  width: 600px;
+  font-size: 7rem;
+  margin-left: 10%;
+  line-height: 150px;
 }
 
 #hero img {
-    height: 550px;
-    margin-left: auto;
-    margin-right: 10%;
+  height: 550px;
+  margin-left: auto;
+  margin-right: 10%;
 }
 
 #stages h1 {
@@ -86,7 +86,7 @@ a {
 .showoff picture {
   width: 400px;
   height: 300px;
-  border-radius: 20px;
+  border-radius: 5px;
   background: #fff;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   display: flex;
@@ -103,7 +103,7 @@ a {
 }
 
 .remove_list_style {
-    list-style: none;
+  list-style: none;
 }
 
 .center {
@@ -111,3 +111,73 @@ a {
   align-items: center;
   justify-content: center;
 }
+
+/* media querries */
+
+@media only screen and (max-width: 1415px) {
+  #hero-text {
+    font-size: 5rem;
+    line-height: 100px;
+  }
+}
+
+@media only screen and (max-width: 1210px) {
+  #hero-text {
+    margin-left: 5%;
+  }
+  #hero img {
+    margin-right: 5%;
+  }
+}
+
+@media only screen and (max-width: 1070px) {
+  #hero-text {
+    margin-left: 25px;
+  }
+  #hero img {
+    margin-right: 25px;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  #hero {
+    height: 900px;
+  }
+  #hero-content {
+    flex-direction: column-reverse;
+  }
+  #hero-text {
+    width: 90%;
+    margin: 0;
+    text-align: center;
+  }
+  #hero img {
+    margin: 0;
+  }
+  #navbar ul li {
+    display: none;
+  }
+  #logo {
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+  #navbar {
+    margin: none;
+    padding-bottom: 0;
+  }
+  .showoff {
+    flex-direction: column;
+  }
+  .showoff picture {
+    margin-bottom: 25px;
+  }
+  
+  .showoff #showoff-content {
+    width: 700px;
+    text-align: center;
+  }
+}
+
+/* *{
+  border: 2px solid yellow;
+} */

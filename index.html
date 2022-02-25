@@ -7,6 +7,8 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <meta property="og:image" content="t-rex-logo.png">
+
     <meta name="description" content="T-Rex Project is a Web3 project. It will have a cryptocurrency called the t-rex coin and a metaverse marketplace and much much more cool stuff.">
 
     <meta name="keywords" content="t-rex project, t-rex projec nft, t-rex project cryptocurrency, t-rex coin, t-rex metaverse, t-rex metaverse project, t-rex web3 project, t-rex nft, t-rex collection, t-rex crypto, web3 t-rex project">
@@ -14,6 +16,10 @@
     <meta name="og:title" property="og:title" content="T-Rex Project, The Coolest Web3 Project">
 
     <meta name="twitter:card" content="T-Rex Project will have a cryptocurrency called the t-rex coin and a metaverse marketplace and much much more cool stuff.">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap"
@@ -29,6 +35,7 @@
   </head>
 
   <body>
+
     <div id="hero">
       <nav id="navbar">
         <h1 id="logo">T-Rex</h1>
@@ -39,15 +46,16 @@
           <li><a href="/rarities">raraties</a></li>
         </ul>
       </nav>
-      <div id="hero-content">
+      <div id="hero-content" data-aos="fade-up" data-aos-duration="1500">
         <h1 id="hero-text">Go Down In History With TRex</h1>
         <img src="Saly-13.png" alt="T-Rex nft hero image" />
       </div>
     </div>
+
     <div id="stages">
-      <h1 class="center">Stage 1</h1>
+      <h1 class="center" data-aos="fade-down">Stage 1</h1>
       <div class="showoff">
-        <picture> <img src="t-rex-logo.png" alt="t-rex logo" height="200px"> </picture>
+        <picture data-aos="flip-down" data-aos-offset="300" data-aos-duration="600"> <img src="t-rex-logo.png" alt="t-rex logo" height="200px"> </picture>
         <article id="showoff-content">
           <p>
             The first step of this fabulous project and to create 10 generations
@@ -56,9 +64,9 @@
           </p>
         </article>
       </div>
-      <h1 class="center">Stage 2</h1>
+      <h1 class="center" data-aos="fade-down">Stage 2</h1>
       <div style="flex-direction: row-reverse" class="showoff" id="stage-2">
-        <picture> <img src="t-rex_project_stage_2-removebg-preview.png" alt="t-rex project cryptocurrency" height="400px"> </picture>
+        <picture data-aos="flip-down" data-aos-offset="300" data-aos-duration="600"> <img src="t-rex_project_stage_2-removebg-preview.png" alt="t-rex project cryptocurrency" height="400px"> </picture>
         <article id="showoff-content">
           <p>
             The second step of this project is to create a crypto-currency: the
@@ -68,7 +76,7 @@
           </p>
         </article>
       </div>
-      <h1 class="center">Stage 3</h1>
+      <!-- <h1 class="center">Stage 3</h1>
       <div class="showoff" id="stage-2">
         <picture> hello </picture>
         <div id="showoff-content">
@@ -79,7 +87,10 @@
           </p>
           </article>
         </div>
-      </div>
+      </div> -->
     </div>
   </body>
+  <script>
+    AOS.init();
+  </script>
 </html>
