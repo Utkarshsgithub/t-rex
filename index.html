@@ -21,10 +21,9 @@
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap" rel="stylesheet"/>
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"/>
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
@@ -54,8 +53,8 @@
 
     <div id="stages">
       <h1 class="center" data-aos="fade-down">Stage 1</h1>
-      <div class="showoff">
-        <picture data-aos="flip-down" data-aos-offset="300" data-aos-duration="600"> <img src="t-rex-logo.png" alt="t-rex logo" height="200px"> </picture>
+      <div data-aos="fade-down" class="showoff">
+        <picture> <img id="stage-one-image" src="t-rex-logo.png" alt="t-rex logo" height="200px"> </picture>
         <article id="showoff-content">
           <p>
             The first step of this fabulous project and to create 10 generations
@@ -65,8 +64,8 @@
         </article>
       </div>
       <h1 class="center" data-aos="fade-down">Stage 2</h1>
-      <div style="flex-direction: row-reverse" class="showoff" id="stage-2">
-        <picture data-aos="flip-down" data-aos-offset="300" data-aos-duration="600"> <img src="t-rex_project_stage_2-removebg-preview.png" alt="t-rex project cryptocurrency" height="400px"> </picture>
+      <div data-aos="fade-down" style="flex-direction: row-reverse" class="showoff" id="stage-2">
+        <picture> <img id="stage-two-image" src="t-rex_project_stage_2-removebg-preview.png" alt="t-rex project cryptocurrency" height="400px"> </picture>
         <article id="showoff-content">
           <p>
             The second step of this project is to create a crypto-currency: the
@@ -90,7 +89,11 @@
       </div> -->
     </div>
   </body>
+
   <script>
     AOS.init();
   </script>
+
+  <script src="global.js"></script>
+
 </html>
