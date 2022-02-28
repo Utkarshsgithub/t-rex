@@ -128,12 +128,12 @@ a {
   padding: 100px 160px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 #form-area form input,
 #form-area form label {
-  margin: 0 25px;
   width: 300px;
 }
 
@@ -147,6 +147,7 @@ a {
   caret-color: #fff;
   border-radius: 3px;
   margin-top: 10px;
+  margin-bottom: 20px;
   letter-spacing: 1px;
 }
 
@@ -163,6 +164,7 @@ footer h2 {
 #footer-top {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 #footer-top ul li {
@@ -176,13 +178,13 @@ footer h2 {
 
 footer hr {
   margin: 50px 0;
-  border-width: .5px;
+  border-width: 0.5px;
 }
 
 #footer-bottom {
   display: flex;
   justify-content: space-between;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .flex-col {
@@ -194,6 +196,7 @@ footer hr {
   padding: 0px 15px;
   height: 48px;
   margin-top: auto;
+  margin-bottom: 20px;
   background-color: #6f6f6f;
   color: #fff;
   border: none;
@@ -201,7 +204,7 @@ footer hr {
   font-family: "Poppins", sans-serif;
   border-radius: 3px;
   cursor: pointer;
-  transition: background-color .2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
 }
 
 .register-btn:hover {
@@ -267,10 +270,12 @@ footer hr {
   .showoff picture {
     margin-bottom: 25px;
   }
-  
   .showoff #showoff-content {
     width: 700px;
     text-align: center;
+  }
+  picture img {
+    height: 300px;
   }
 }
 
@@ -310,10 +315,10 @@ footer hr {
 }
 
 @media only screen and (max-width: 560px) {
-  .showoff picture {
+  /* .showoff picture {
     height: 200px;
     width: 300px;
-  }
+  } */
   .showoff #showoff-content p {
     font-size: 1.3rem;
   }
@@ -322,5 +327,76 @@ footer hr {
   }
   #stage-two-image {
     height: 300px;
+  }
+}
+
+@media only screen and (max-width: 745px) {
+  #form-area h1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  #form-area form {
+    padding: 100px 60px;
+  }
+  footer {
+    padding: 100px 60px;
+  }
+}
+
+@media only screen and (max-width: 1020px) {
+  #form-area form {
+    justify-content: center;
+  }
+  .register-btn {
+    width: 600px;
+    margin-top: 10px;
+  }
+  #form-area form input,
+  #form-area form 
+  label {
+    width: 600px;
+  }
+  #footer-top {
+    flex-direction: column;
+  }
+  footer h2 {
+    margin-bottom: 25px;
+  }
+  #footer-bottom {
+    flex-direction: column;
+  }
+  #footer-bottom p {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  #form-area form {
+    padding: 50px 25px;
+  }
+  footer {
+    padding: 50px 25px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .register-btn {
+    width: 500px;
+  }
+  #form-area form input,
+  #form-area form label {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .register-btn {
+    width: 350px;
+  }
+  #form-area form input,
+  #form-area form label {
+    width: 350px;
   }
 }
