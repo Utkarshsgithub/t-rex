@@ -211,6 +211,23 @@ footer hr {
   background-color: #d90a2c;
 }
 
+.btn {
+  padding: 15px 20px;
+  margin-top: 25px;
+  background-color: #6f6f6f;
+  color: #fff;
+  border: none;
+  font-size: medium;
+  font-family: "Poppins", sans-serif;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #d90a2c;
+}
+
 /* media querries */
 
 @media only screen and (max-width: 1415px) {
